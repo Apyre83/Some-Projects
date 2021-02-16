@@ -1,0 +1,47 @@
+
+/* On peut importer des polices qu'on a téléchargé ici */
+@font-face {
+	font-family: "Death note police";
+	src: url("police Death note.ttf");
+
+}
+
+body {
+	background-color: #000000;
+	/* Fond d'écran */
+	background-image: url("https://c.wallhere.com/photos/70/95/anime_anime_girls_Girls_Frontline_gun_weapon_uniform_long_hair_gray_hair-12561.jpg!d");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.div cote_gauche {
+    width: auto;
+    height: auto;
+    margin: auto;
+ }
+
+.image { /* Image */
+    margin-right: 10px;
+    float: left;
+ }
+
+.texte {/* sommaire fait d'une autre maniere, on ne peut pas utiliser le HEADER car l'image passerait en dessous, ce qu'on ne veut pas */
+    font-family: "Death note police", sans-serif;
+    color: #FFFFFF;
+    margin: 10px;
+	font-size: 300%;
+}
+
+.citation { /* premier paragraphe */
+    font-family: "Death note police", sans-serif;
+    color: #956D6D;
+    font-size: 250%;
+
+}
+.biographie { /* deuxieme paragraphe */
+    font: bold italic large serif;
+    color: #A0704A;
+    margin: 250px;
+    font-size: 300%;
+}

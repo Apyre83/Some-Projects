@@ -1,0 +1,166 @@
+/*On importe les polices ici*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+
+body {   /* corps du site */
+	background-color: #000000;
+	background-image: url("https://www.j-26.com/assets/html-inserter.png");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+li, a{  /* on règle les parametres du texte du sommaire */
+    font-family: "Montserrat", sans-serif;
+    color: #390A5F;
+    font-weight: 500;
+    font-size: 36px;    
+    text-decoration: underline;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 40px 10%;
+
+	border: groove 5px white;
+	padding: 8px;
+	border-radius: 5px;
+	background: rgb(63,94,251);
+	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(127,131,52,0.7819502801120448) 100%);
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    text-align: center;
+    font-weight: bold;
+}
+
+.premier_projet { /* cadre en haut a gauche, class #1 */
+    box-shadow: inset 0 0 1em purple, 0 0 2em black;
+    margin: 40px;
+    width: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 3px solid #97395C;
+    border-radius: 10px;
+    text-align: center;
+    background: linear-gradient(to right, rgba(10, 130, 9, 0), rgba(55, 124, 142, 1)), /* Linéar gradient permet de faire un dégradé de couleurs */
+    url("https://static.jeux123.fr/game-images/space-shooter_big.jpg");
+}
+
+.premier_projet h1 { /* titre */
+    margin: 30px;
+    color: #FAFAFA;
+    text-decoration: underline;
+}
+
+.premier_projet p {  /* texte */
+    font-size: 25px;
+    font-family: "Langar", sans-serif; 
+    margin: auto;
+}
+
+.premier_projet a { /* petit lien vers la bande d'annonce du film qui est assez drole */
+    color: #84DD8C;
+    font-size: 27px;
+}
+
+.image_projet {  /* petit gif en haut a droite sur la programmation */
+    margin: 30px;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    border-radius: 30px;
+    border: 3px solid #97395C;
+}
+
+.la_suite {  /* cadre #2 en bas a droite */
+
+    float: right;
+    text-align: center;
+
+    box-shadow: inset 0 0 1em black, 0 0 2em black; /* permet de faire la boite qui englobe le texte, image... tout ce qui se trouve dans la classe (div) */
+    margin: 40px;
+    width: 600px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 3px solid #97395C;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgba(10, 130, 9, 0), rgba(55, 124, 142, 1)),
+    url("https://image.freepik.com/vecteurs-libre/concept-codage-pour-ordinateur-portable-developpeur-web-programmation-code-ecran-ordinateur-portable-illustration_100456-1754.jpg");
+
+}
+
+.la_suite image{
+    width: 50px
+}
+
+.la_suite p {
+    color: #9F9BC1;
+    font-size: 30px;
+    font-family: "Langar", sans-serif;
+}
+
+.la_suite a {
+    color: #000000;
+}
+
+.fleche_transition{ /* fleche au milieu de l'écran qui permet de passer au texte de nos jours */
+    margin: 30px;
+    position: absolute;
+    top: 60%;
+    right: 40%;
+   }
+
+.aujourdhui {  /* dernier paragraphe */
+    position: absolute;
+    bottom: 0%;
+    left: 8%;
+
+    box-shadow: inset 0 0 1em black, 0 0 2em black;
+    text-align: center;
+    margin: 40px;
+    width: 600px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 3px solid #97395C;
+    border-radius: 10px;
+}
+
+.aujourdhui p {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: "Langar", sans-serif;
+}
+
+footer div{ /* bas de page, copyright... */
+
+    position: relative; /* on peut très bien ne rien mettre pour la position du footer, sauf que l'attribut float:right pour la classe 1 pose des problemes, voila pourquoi on dit au footer d'être en bas (meme si c'est normalement logique) */
+    clear: both;
+    margin-top: -150px;
+
+    width: auto;
+    height: 100px;
+    margin: auto;
+    background-color: rgba(40, 180, 99, 0.1);
+    border: 1px solid rgba(40, 180, 99, 0.4);
+}
+
+footer div p{   /* texte du footer */
+
+    font-family: "Montserrat", sans-serif;
+    color: #000000;
+    text-align: center;
+    font-size: 35px;
+    margin: 30px;
+    text-decoration: underline;
+}
